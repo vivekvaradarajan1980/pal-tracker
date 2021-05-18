@@ -1,4 +1,6 @@
-io/pivotal/pal/tracker/WelcomeController.java
- io.pivotal.pal.tracker.WelcomeController
 io/pivotal/pal/tracker/PalTrackerApplication.java
  io.pivotal.pal.tracker.PalTrackerApplication
+io/pivotal/pal/tracker/WelcomeController.java
+ io.pivotal.pal.tracker.WelcomeController
+io/pivotal/pal/tracker/EnvController.java
+ io.pivotal.pal.tracker.EnvController
