@@ -6,9 +6,9 @@ io/pivotal/pal/tracker/TimeEntryRepository.java
  io.pivotal.pal.tracker.TimeEntryRepository
 io/pivotal/pal/tracker/WelcomeController.java
  io.pivotal.pal.tracker.WelcomeController
-io/pivotal/pal/tracker/PalTrackerApplication.java
- io.pivotal.pal.tracker.PalTrackerApplication
 io/pivotal/pal/tracker/TimeEntryController.java
  io.pivotal.pal.tracker.TimeEntryController
+io/pivotal/pal/tracker/PalTrackerApplication.java
+ io.pivotal.pal.tracker.PalTrackerApplication
 io/pivotal/pal/tracker/InMemoryTimeEntryRepository.java
  io.pivotal.pal.tracker.InMemoryTimeEntryRepository
