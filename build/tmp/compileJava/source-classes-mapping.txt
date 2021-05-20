@@ -14,3 +14,5 @@ io/pivotal/pal/tracker/TimeEntryController.java
  io.pivotal.pal.tracker.TimeEntryController
 io/pivotal/pal/tracker/InMemoryTimeEntryRepository.java
  io.pivotal.pal.tracker.InMemoryTimeEntryRepository
+io/pivotal/pal/tracker/PalTrackerFailure.java
+ io.pivotal.pal.tracker.PalTrackerFailure
