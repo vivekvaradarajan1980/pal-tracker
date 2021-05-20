@@ -1,11 +1,13 @@
 test/pivotal/pal/tracker/EnvControllerTest.java
  test.pivotal.pal.tracker.EnvControllerTest
-test/pivotal/pal/tracker/WelcomeControllerTest.java
- test.pivotal.pal.tracker.WelcomeControllerTest
-test/pivotal/pal/tracker/TimeEntryControllerTest.java
- test.pivotal.pal.tracker.TimeEntryControllerTest
+test/pivotal/pal/tracker/JdbcTimeEntryRepositoryTest.java
+ test.pivotal.pal.tracker.JdbcTimeEntryRepositoryTest
 test/pivotal/pal/trackerapi/WelcomeApiTest.java
  test.pivotal.pal.trackerapi.WelcomeApiTest
+test/pivotal/pal/tracker/TimeEntryControllerTest.java
+ test.pivotal.pal.tracker.TimeEntryControllerTest
+test/pivotal/pal/tracker/WelcomeControllerTest.java
+ test.pivotal.pal.tracker.WelcomeControllerTest
 test/pivotal/pal/tracker/InMemoryTimeEntryRepositoryTest.java
  test.pivotal.pal.tracker.InMemoryTimeEntryRepositoryTest
 test/pivotal/pal/trackerapi/TimeEntryApiTest.java

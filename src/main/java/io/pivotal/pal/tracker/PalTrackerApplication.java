@@ -4,15 +4,24 @@ import org.apache.catalina.core.ApplicationContext;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.Bean;
 
 import javax.servlet.ServletContext;
+import javax.sql.DataSource;
 
 @SpringBootApplication
 public class PalTrackerApplication {
 
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    ConfigurableApplicationContext context= SpringApplication.run(PalTrackerApplication.class, args);
-    TimeEntryRepository inMemoryTimeEntryRepositoryr = context.getBean(InMemoryTimeEntryRepository.class);
-}
+        SpringApplication.run(PalTrackerApplication.class, args);
+
+
     }
+
+    @Bean
+    public TimeEntryRepository timeEntryRepository(DataSource dataSource){
+        return new JdbcTimeEntryRepository(dataSource);
+
+    }
+}
